@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linh Nguyen - Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* General Styling */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+        }
+        /* Profile Section */
+        .profile {
+            padding: 4rem 0;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #007bff;
+            margin-bottom: 1rem;
+        }
+        .profile h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .social-links a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        /* Content Sections */
+        .section {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            font-size: 1.8rem;
+            color: #007bff;
+            margin-bottom: 1rem;
+        }
+        /* Skills Badges */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .badge-secondary {
+            background-color: #333;
+            color: #fff;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        /* Experience Items */
+        .experience-item {
+            margin-bottom: 1.5rem;
+        }
+        .experience-item h3 {
+            font-size: 1.2rem;
+            color: #007bff;
+            margin-bottom: 0.5rem;
+        }
+        /* Contact Links */
+        .section a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Profile Section -->
+    <section class="profile text-center">
+        <img src="profile-picture.jpg" alt="Profile Picture" class="profile-pic">
+        <h1 class="text-light">Linh Nguyen</h1>
+        <p class="lead text-muted">Data Scientist & Business Analyst</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/linh-nguyenp" target="_blank" class="text-light mx-2">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="mailto:nptlinh4202@gmail.com" class="text-light mx-2">
+                <i class="fas fa-envelope fa-lg"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Content Sections -->
+    <main class="container text-light mt-5">
+        
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a Data Science major with a minor in Business Analytics, currently studying at Northern Kentucky University. I am passionate about data-driven problem-solving and applying my skills in data analytics and machine learning to real-world challenges. My goal is to contribute to impactful projects that make a positive difference.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <h3>Northern Kentucky University</h3>
+            <p><strong>Bachelor of Science in Data Science</strong> | Minor: Business Analytics <br> GPA: 3.9/4.0 | Expected Graduation: December 2024</p>
+            <p><strong>Awards:</strong> President’s List, Dean’s List</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="badge badge-secondary">SQL</span>
+                <span class="badge badge-secondary">Python</span>
+                <span class="badge badge-secondary">Excel</span>
+                <span class="badge badge-secondary">WEKA</span>
+                <span class="badge badge-secondary">Data Wrangling</span>
+                <span class="badge badge-secondary">Java</span>
+                <span class="badge badge-secondary">Data Analytics & Visualization</span>
+                <span class="badge badge-secondary">RapidMiner Studio</span>
+                <span class="badge badge-secondary">Data Mining</span>
+                <span class="badge badge-secondary">R Studio</span>
+                <span class="badge badge-secondary">Data Structure & Algorithms</span>
+                <span class="badge badge-secondary">Web Scraping</span>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="section">
+            <h2>Work Experience</h2>
+
+            <div class="experience-item">
+                <h3>NCS Technologies, Inc. | AI Project Intern</h3>
+                <p class="text-muted">Manassas, VA | May 2024 - Present</p>
+                <ul>
+                    <li>Evaluated AI-powered proposal management tools based on features, scalability, IT compliance, and user-friendliness.</li>
+                    <li>Conducted in-depth analysis of large language models (LLMs) within tools, assessing training and effectiveness.</li>
+                    <li>Supported the proposal management team by researching, drafting, and refining content for client proposals.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>LNS US LLC | Data Analyst Intern</h3>
+                <p class="text-muted">Remote | May 2023 - Dec 2023</p>
+                <ul>
+                    <li>Conducted ad-hoc analyses to support cross-functional project development.</li>
+                    <li>Utilized BI tools to visualize data, improving data consistency and integrity.</li>
+                    <li>Led a project on data structuring that increased database efficiency by 20%.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>First Financial Bank | Advocate</h3>
+                <p class="text-muted">Springdale, OH | March 2023 – May 2023</p>
+                <ul>
+                    <li>Effectively harnessed CRM and utilized data-driven problem-solving to resolve customer concerns.</li>
+                    <li>Conveyed complex financial information clearly to improve customer understanding.</li>
+                    <li>Exhibited attention to detail by accurately documenting customer interactions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Data Science Experience</h2>
+
+            <div class="experience-item">
+                <h3>Multimodal Dataset on COVID-19 Misinformation Research Project</h3>
+                <p class="text-muted">Research Assistant | June 2022 – Present</p>
+                <p>Conducted web scraping of image links from misinformation-prone websites using Python, focusing on source credibility and relevance. Applied rigorous data cleaning techniques to ensure a high-quality dataset.</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Data Clustering Project for Data Mining Course</h3>
+                <p class="text-muted">January 2023 – May 2023</p>
+                <p>Implemented the Bisecting K-means algorithm in Python, completed association rule mining using RapidMiner and WEKA, and created a 3D visualization of data clusters.</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Data Visualization and Analytics with R Studio</h3>
+                <p class="text-muted">January 2023 – May 2023</p>
+                <p>Performed statistical analysis, used correlation matrices, regression models, and hypothesis testing to analyze relationships between variables, and created detailed reports.</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Final Project for Data Wrangling Course with Python</h3>
+                <p class="text-muted">September 2022 – December 2022</p>
+                <p>Transformed data from various formats, performed data wrangling, and web scraping to compile a comprehensive dataset. Provided insights on COVID-19 trends and analysis recommendations.</p>
+            </div>
+        </section>
+
+        <!-- Leadership Section -->
+        <section id="leadership" class="section">
+            <h2>Leadership Experience</h2>
+            <div class="experience-item">
+                <h3>School of Computing and Analytics (SCA),
