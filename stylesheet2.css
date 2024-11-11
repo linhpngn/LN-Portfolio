@@ -1,0 +1,146 @@
+body {
+    background-color: grey;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+    color:black;
+}
+h2{
+    background-color: black;
+    color: grey;
+}
+h3{
+    background-color: grey;
+    color: Black;
+    font-style: inherit;
+}
+
+::selection {
+    background-color: grey;
+}
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+.content-box {
+    box-sizing: content-box;
+    width: 160px;
+    height: 80px;
+  }
+  
+.border-box {
+    box-sizing: border-box;
+}
+.body-text {
+    margin-right: 150px;
+    font-size: 10px;
+    color:black;
+}
+footer {
+    background-color: grey;
+    color: black;
+    padding: 2px;
+    box-shadow: whitesmoke 3px 3px;
+}
+main {
+    padding: 10px 15px;
+    color: grey;
+    background-color: black;
+    -webkit-box-shadow: 5px 5px 15px -2px black;
+    box-shadow: 5px 5px 15px -2px black;
+    border: 1px solid grey;
+    z-index: 5;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column img {
+    margin-top: 12px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/*Image*/
+.container {
+    position: relative;
+    width: 50%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: whitesmoke;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*Form*/
+#informationForm label {
+    font-weight: bold;
+
+}
+#informationForm input{
+    font-weight: bold;
+}
+/*Phone*/
+@media only screen and (max-width:600px){
+    #page{
+        flex-direction: column;
+    }
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+p { font-size: .90em;
+}
+ul { font-weight: bold;
+}
